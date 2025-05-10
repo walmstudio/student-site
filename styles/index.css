@@ -1,48 +1,48 @@
 @font-face {
     font-family: 'Ubuntu'; /* Название шрифта, которое будем использовать */
-    src: url('./font/Ubuntu-Regular.woff') format("woff2");
+    src: url('font/Ubuntu-Regular.woff') format("woff2");
     font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
     font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
 }
 @font-face {
     font-family: 'Determination'; /* Название шрифта, которое будем использовать */
-    src: url('./font/determination.woff2') format("woff2");
+    src: url('font/determination.woff2') format("woff2");
     font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
     font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
 }
 @font-face {
     font-family: 'Lucida-Console'; /* Название шрифта, которое будем использовать */
-    src: url('./font/lucidaconsole.woff2') format("woff2");
+    src: url('font/lucidaconsole.woff2') format("woff2");
     font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
     font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
 }
 @font-face {
     font-family: 'Ubuntu-Bold'; /* Название шрифта, которое будем использовать */
-    src: url('./font/Ubuntu-Bold.woff2') format("woff2");
+    src: url('font/Ubuntu-Bold.woff2') format("woff2");
     font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
     font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
 }
 @font-face {
     font-family: 'Joystix'; /* Название шрифта, которое будем использовать */
-    src: url('./font/joystix.woff2') format("woff2");
+    src: url('font/joystix.woff2') format("woff2");
     font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
     font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
 }
 @font-face {
     font-family: 'Ubuntu-Light'; /* Название шрифта, которое будем использовать */
-    src: url('./font/Ubuntu-Light.woff2') format("woff2");
+    src: url('font/Ubuntu-Light.woff2') format("woff2");
     font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
     font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
 }
 @font-face {
     font-family: 'SegoeUI-Light'; /* Название шрифта, которое будем использовать */
-    src: url('./font/segoe-ui-light.woff2') format("woff2");
+    src: url('font/segoe-ui-light.woff2') format("woff2");
     font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
     font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
 }
 @font-face {
     font-family: 'Rejection'; /* Название шрифта, которое будем использовать */
-    src: url('./font/rejection.woff2') format("woff2");
+    src: url('font/rejection.woff2') format("woff2");
     font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
     font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
 }

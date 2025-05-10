@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТК "Nexus"</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body style="background-image: url('images/walm_blured.jpg');">
+    <!-- Шапка сайта -->
+    <header class="header">
+        <!-- Навигация и лого будут здесь -->
+        <div class="header-company">
+            <a href="index.html">
+                <img src="images/logo.webp" class="header-company-logo" alt="">
+            </a>
+            <div id="current-time"></div>
+            <a href="index.html">
+                <button class="header-company-button-main button-mode" style="font-family: Ubuntu;">Главная</button>
+            </a>
+            <a href="product.html">
+                <button class="header-company-button-product button-mode" style="font-family: Ubuntu;">Продукты</button>
+            </a>
+            <a href="about.html">
+                <button class="header-company-button-about button-mode" style="font-family: Ubuntu;">О компании</button>
+            </a>
+            
+        </div>
+    </header>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('images/walm_blured.jpg'); /* Твой фон */
+            background-size: 60%;
+            animation-name: moveBackground;
+            animation-duration: 15s; /* Длительность цикла */
+            animation-timing-function: linear; /* Линейная скорость движения */
+            animation-iteration-count: infinite; /* Бесконечная анимация */
+        }
+
+        /* Описание ключевых кадров */
+        @keyframes moveBackground {
+            from {
+                background-position: 0% 0%; /* Начальная позиция */
+            }
+            to {
+                background-position: 150% 0%; /* Конечная позиция */
+            }
+        }
+    </style>
+
+    <!-- Основное содержимое -->
+    <main class="main">
+        <!-- Контентные секции будут здесь -->
+        <div class="main-company">
+            <p style="font-family: Ubuntu;font-size: 60px;color: white; margin-left: 50px;">Игра - Silent Hill 3</p>
+            <div class="easter"><video src="video/easter_egg.mp4" width="1280" autoplay controls></video></div>
+            
+        </div>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <!-- Информация в футере будет здесь -->
+        <div class="footer-company">
+            <a href="index.html">
+                <img src="images/logo-big.webp" class="footer-company-logo" alt="">
+            </a>
+            <label id="copyright" style="font-family: Ubuntu;">TK "Nexus" 2025. Все права защищены.</label>
+            <a href="https://walmstudio.github.io/site">
+                <img src="images/walm.png" class="footer-parent-logo" alt="">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

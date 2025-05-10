@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТК "Nexus"</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+    <audio src='/music/silenthill3.m4a' autoplay loop></audio>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <!-- Навигация и лого будут здесь -->
+        <div class="header-company header-company-buttons">
+            <a href="index.html">
+                <img src="images/logo.webp" class="header-company-logo " alt="">
+            </a>
+            <div id="current-time" style="font-family: Ubuntu;"></div>
+            <a href="index.html">
+                <button class="header-company-button-main button-mode" style="font-family: Ubuntu;">Главная</button>
+            </a>
+            <a href="product.html">
+                <button class="header-company-button-product button-mode" style="font-family: Ubuntu;">Каталог</button>
+            </a>
+            <a href="about.html">
+                <button class="header-company-button-about button-mode" style="font-family: Ubuntu;">О компании</button>
+            </a>
+            
+        </div>
+    </header>
+
+    <style>
+        
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('images/walm_blured.jpg'); /* Твой фон */
+            background-size: 60%;
+            animation-name: moveBackground;
+            animation-duration: 15s; /* Длительность цикла */
+            animation-timing-function: linear; /* Линейная скорость движения */
+            animation-iteration-count: infinite; /* Бесконечная анимация */
+        }
+
+        /* Описание ключевых кадров */
+        @keyframes moveBackground {
+            from {
+                background-position: 0% 0%; /* Начальная позиция */
+            }
+            to {
+                background-position: 150% 0%; /* Конечная позиция */
+            }
+        }
+    
+    </style>
+
+    <!-- Основное содержимое -->
+    <main>
+        <!-- Контентные секции будут здесь -->
+        <div class="main-company">
+            <div class="contana">
+                <div><img src="images/logo-ntext.webp" class="logo-main" alt=""></div>
+                <div>
+                    <div><p class="nexus-lyric-welcome">Торговая компания "Nexus"</p></div>
+                    <div><p class="nexus-lyric-dec">Производим физические копии программ, игр, предоставляя библиотеку наших партнеров. С нами сотрудничают такие компании как WALM, AWAR, Bluestick, Paradei и другие. Вместе мы сможем сделать распространение продуктов быстрей и доступней.</p></div>
+                    <div><p class="nexus-lyric-dec">Соблюдая наш контракт с вами вы можете подняться в нашем списке лояльностей. Нарушая его, вы будете</p></div>
+                    <div><p class="nexus-lyric-error">Публично наказаны и возможно Ѧɐ̶̧̊̆̔́Ⲥ͍ᵒ ᴨⲓữꙮ ĿṏϠỹ ẟփƎ</p></div>
+                </div>
+                
+            </div> 
+        </div>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <!-- Информация в футере будет здесь -->
+        <div class="footer-company">
+            <a href="index.html">
+                <img src="images/logo-big.webp" class="footer-company-logo" alt="">
+            </a>
+            <label id="copyright" style="font-family: Ubuntu;">TK "Nexus" 2025. Все права защищены.</label>
+            <a href="easter_egg.html">
+                <label style="font-size: 15px; color: white; text-decoration: underline; font-family: Ubuntu;">Откуда эта музыка?</label>
+            </a>
+            <a href="https://walmstudio.github.io/site">
+                <img src="images/walm.png" class="footer-parent-logo" alt="">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТК "Nexus"</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <!-- Навигация и лого будут здесь -->
+        <div class="header-company header-company-buttons">
+            <a href="index.html">
+                <img src="images/logo.webp" class="header-company-logo " alt="">
+            </a>
+            <div id="current-time"></div>
+            <a href="index.html">
+                <button class="header-company-button-main button-mode" style="font-family: Ubuntu;">Главная</button>
+            </a>
+            <a href="product.html">
+                <button class="header-company-button-product button-mode" style="font-family: Ubuntu;">Каталог</button>
+            </a>
+            <a href="about.html">
+                <button class="header-company-button-about button-mode" style="font-family: Ubuntu;">О компании</button>
+            </a>
+            
+        </div>
+    </header>
+
+    <style> 
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('images/walm_blured.jpg'); /* Твой фон */
+            background-size: 60%;
+            animation-name: moveBackground;
+            animation-duration: 15s; /* Длительность цикла */
+            animation-timing-function: linear; /* Линейная скорость движения */
+            animation-iteration-count: infinite; /* Бесконечная анимация */
+        }
+
+        /* Описание ключевых кадров */
+        @keyframes moveBackground {
+            from {
+                background-position: 0% 0%; /* Начальная позиция */
+            }
+            to {
+                background-position: 150% 0%; /* Конечная позиция */
+            }
+        }
+    
+    </style>
+
+    <!-- Основное содержимое -->
+    <main class="main">
+        <!-- Контентные секции будут здесь -->
+        <div class="main-company-product">
+
+            <p style="font-family: Ubuntu;font-size: 50px;color: white; margin-left: 75px;">Проекты студий</p>
+
+            <div id="WALM" style="margin-bottom: 50px;">
+                <div style="display: flex;">
+                    <img src="images/walm.png" style="margin-left: 50px; margin-bottom: 30px;" alt="">
+                    <p style="font-family: Lucida-Console; font-size: 40px;color: white; margin-left: 30px;"> WALM</p> 
+                </div>
+                <div style="display: inline-block;">
+                    <a id="night-soul">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/night-soul.png" style="width: 200px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Determination; font-size: 35px;" >Night Soul</p></button>
+                    </a>
+                    <a id="ORTANO">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/ortano.png" style="width: 200px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Lucida-Console; font-size: 35px;" >ORTANO</p></button>
+                    </a>
+                    <a id="Replycator">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/replycator.png" style="width: 200px; height: 190px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Ubuntu-Bold; font-size: 35px;" >Replycator</p></button>
+                    </a>
+                    <a id="ModernArchitect">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/modernarchitect.jpg" style="width: 300px; height: 190px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Joystix; font-size: 35px;" >ModernArchitect</p></button>
+                    </a>
+                    <a id="WALMFAST">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/walmfast.png" style="width: 200px; height: 195px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Ubuntu-Light; font-size: 35px;" >WALMFAST</p></button>
+                    </a>
+                </div>
+                <div>
+                    <a id="WebAnLauncher2">
+                        <button class="button-mode-tablet" style="margin-left: 30px; margin-top: 20px;" ><img src="images/webanlauncher2.png" style="width: 200px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: SegoeUI-Light, Tahoma, Geneva, Verdana, sans-serif; font-size: 35px;" >WebAnLauncher 2</p></button>
+                    </a>
+                    <a id="Musplayer2">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/musplayer2.png" style="width: 200px; height: 208px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Determination; font-size: 35px;" >Musplayer 2</p></button>
+                    </a>
+                </div>
+            </div>
+
+            <div id="WinProtection" style="margin-bottom: 50px;">
+                <div style="display: flex;">
+                    <img src="images/winprotection.jpg" style="margin-left: 50px; margin-bottom: 30px; width: 100px;" alt="">
+                    <p style="font-family: Lucida-Console; font-size: 40px;color: white; margin-left: 30px;"> WinProtection</p> 
+                </div>
+                <div style="display: inline-block;">
+                    <a id="Writer">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/writer.png" style="width: 200px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Lucida-Console; font-size: 35px;" >WALM Writer</p></button>
+                    </a>
+                    <a id="wlap_flashtool">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/wlap_flashtool.png" style="width: 450px; height: 200px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Lucida-Console; font-size: 35px;" >Wlap Flashtool</p></button>
+                    </a>
+                </div>
+            </div>
+
+            <div id="Rehitebak Entertainment" style="margin-bottom: 50px;">
+                <div style="display: flex;">
+                    <img src="images/Rehitebak Entertainment.jpg" style="margin-left: 50px; margin-bottom: 30px; width: 100px;" alt="">
+                    <p style="font-family: Lucida-Console; font-size: 40px;color: white; margin-left: 30px;"> Rehitebak Entertainment</p> 
+                </div>
+                <div style="display: inline-block;">
+                    <a id="Illusion">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/illusion.png" style="width: 200px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Rejection; font-size: 35px;" class="illusion"><span>Ill</span><span>us</span><span>ion</span></p></button>
+                    </a>
+                    <a id="Dont Forget Me">
+                        <button class="button-mode-tablet" style="margin-left: 30px;" ><img src="images/don't forget me.png" style="width: 325px; height: 200px; margin-top:12px; margin-left: 8px; margin-right: 8px;" alt=""><p style="font-family: Rejection; font-size: 35px; color: grey;" >Don't Forget Me</p></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <!-- Информация в футере будет здесь -->
+        <div class="footer-company">
+            <a href="index.html">
+                <img src="images/logo-big.webp" class="footer-company-logo" alt="">
+            </a>
+            <label id="copyright" style="font-family: Ubuntu;">TK "Nexus" 2025. Все права защищены.</label>
+            <a href="https://walmstudio.github.io/site">
+                <img src="images/walm.png" class="footer-parent-logo" alt="">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

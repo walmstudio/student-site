@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Ubuntu'; /* Название шрифта, которое будем использовать */
+    src: url('/font/Ubuntu-Regular.woff') format("woff2");
+    font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
+    font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
+}
+@font-face {
+    font-family: 'Determination'; /* Название шрифта, которое будем использовать */
+    src: url('/font/determination.woff2') format("woff2");
+    font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
+    font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
+}
+@font-face {
+    font-family: 'Lucida-Console'; /* Название шрифта, которое будем использовать */
+    src: url('/font/lucidaconsole.woff2') format("woff2");
+    font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
+    font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
+}
+@font-face {
+    font-family: 'Ubuntu-Bold'; /* Название шрифта, которое будем использовать */
+    src: url('/font/Ubuntu-Bold.woff2') format("woff2");
+    font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
+    font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
+}
+@font-face {
+    font-family: 'Joystix'; /* Название шрифта, которое будем использовать */
+    src: url('/font/joystix.woff2') format("woff2");
+    font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
+    font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
+}
+@font-face {
+    font-family: 'Ubuntu-Light'; /* Название шрифта, которое будем использовать */
+    src: url('/font/Ubuntu-Light.woff2') format("woff2");
+    font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
+    font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
+}
+@font-face {
+    font-family: 'SegoeUI-Light'; /* Название шрифта, которое будем использовать */
+    src: url('/font/segoe-ui-light.woff2') format("woff2");
+    font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
+    font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
+}
+@font-face {
+    font-family: 'Rejection'; /* Название шрифта, которое будем использовать */
+    src: url('/font/rejection.woff2') format("woff2");
+    font-weight: normal; /* Вес шрифта (обычно нормальный или жирный) */
+    font-style: normal; /* Стиль шрифта (нормальный или наклонный) */
+}
+
+
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.header-company {
+    height: 75px;
+    width: 90%;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid; 
+    border-width: 2px;
+    margin: -25px auto;
+    background-color: rgba(73, 73, 73, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.main-company {
+    height: 1000px;
+    width: 90%;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid; 
+    border-width: 2px;
+    margin: 30px auto 0;
+    background-color: rgba(73, 73, 73, 0.5);
+}
+
+.footer-company {
+    height: 90px;
+    width: 90%;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid; 
+    border-width: 2px;
+    margin: 5px auto;
+    background-color: rgba(73, 73, 73, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-company-logo {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.header-company-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header-company-button-main,
+.header-company-button-product,
+.header-company-button-about {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.button-mode {
+    border-style: solid; 
+    border-radius: 10px;
+    height: 45px;
+    width: 120px;
+    border-color: #5a5a5a;
+    background-color: rgba(73, 73, 73, 0.5);
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.15s ease;
+}
+
+.button-mode:hover {
+    background-color:#4e4e4e;
+    cursor:pointer;
+}
+
+.button-mode:active {
+    background-color:#7c7c7c;
+}
+
+#current-time {
+    font-size: 30px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin-top: 15px;
+}
+
+.footer-company-logo {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#copyright {
+    font-size: 24px;
+    color: white;
+}
+
+.footer-parent-logo {
+    margin-top: 5px;
+    width: 65px;  
+}  
+
+.logo-main {
+    width: 53%;
+    margin-left: 190px;
+    margin-top: 222px;
+}
+
+.nexus-lyric-welcome {
+    font-family: 'Ubuntu', Verdana, sans-serif;
+    font-size: 57px;
+    color: white;
+    width:500px;
+}
+.nexus-lyric-dec {
+    font-family: 'Ubuntu', Verdana, sans-serif;
+    font-size: 27px;
+    color: rgb(209, 209, 209);
+    width:500px;
+}
+.contana {
+    width: 84%;
+    margin-top: 50px;
+    display: flex; /* Включаем режим Flexbox */
+    flex-direction: row;
+    gap: 10px; 
+}
+
+.nexus-lyric-error {
+    font-family: 'Ubuntu', Verdana, sans-serif;
+    font-size: 24px;
+    color: rgb(90, 7, 7);
+    width:500px;
+}
+
+.easter {
+    margin-left: 225px;
+    margin-top: 55px;
+}
+.button-mode-tablet {
+    border-style: solid; 
+    border-radius: 10px;
+    height: auto ;
+    width: auto;
+    border-color: #5a5a5a;
+    background-color: rgba(73, 73, 73, 0.5);
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.15s ease;
+}
+
+.button-mode-tablet:hover {
+    background-color:#4e4e4e;
+    cursor:pointer;
+}
+
+.button-mode-tablet:active {
+    background-color:#7c7c7c;
+}
+
+.main-company-product {
+    height: 2025px;
+    width: 90%;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid; 
+    border-width: 2px;
+    margin: 30px auto 0;
+    background-color: rgba(73, 73, 73, 0.5);
+}
+.illusion span{
+    transition: all 0.3s ease;
+}
+.illusion span:nth-child(1) { color: red; }
+.illusion span:nth-child(2) { color: rgb(97, 97, 97); }
+.illusion span:nth-child(3) { color: white; }
